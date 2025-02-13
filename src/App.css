@@ -105,6 +105,7 @@ body {
 }
 
 #logo {
+ 
   margin-left: 10px;
   font-size: 50px;
   color: aqua; /* Keep accent color static if desired */
