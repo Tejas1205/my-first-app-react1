@@ -1,0 +1,127 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+[data-theme="dark"] {
+  --background-color: #333;
+  --text-color: white;
+}
+
+#navbar{
+  height: 80px;
+  display: flex;
+  justify-content:space-between;
+  background-color: #000000;
+  color: aliceblue;
+  font-size:20px ;
+  align-items: center;
+
+}
+#logo{
+  
+  margin-left: 10px; /* Ensures the logo starts from the very left */
+  /* font-size: 50px; */
+  /* margin-top: px; */
+  /* align-items: ; */
+  /* display: flex; */
+  /* color: aqua; */
+  /* background-color: slategray; */
+/* }
+
+ #mode {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#icons{
+
+  display: flex;
+}
+
+.footer{
+
+  background-color: #000000; 
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 75px;
+  color: white;
+  font-size: 20px;
+  
+
+
+
+/* } */ 
+
+/* Use data-theme attributes for dark/light mode */
+:root {
+  --navbar-bg: #000000;
+  --navbar-text: aliceblue;
+  --footer-bg: #000000;
+  --footer-text: white;
+  --body-bg: white;
+  --body-text: black;
+}
+
+[data-theme="dark"] {
+  --navbar-bg: #2d2d2d; /* Darker shade for dark mode */
+  --navbar-text: #ffffff;
+  --footer-bg: #2d2d2d;
+  --footer-text: #ffffff;
+  --body-bg: #1a1a1a;
+  --body-text: white;
+}
+
+/* Apply variables to elements */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-bg);
+  color: var(--body-text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+  font-size: 20px;
+  align-items: center;
+}
+
+#logo {
+  margin-left: 10px;
+  font-size: 50px;
+  color: aqua; /* Keep accent color static if desired */
+}
+
+.footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 75px;
+  font-size: 20px;
+}
+
+#icons{
+  display: flex;
+
+
+}
