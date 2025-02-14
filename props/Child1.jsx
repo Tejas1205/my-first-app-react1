@@ -8,14 +8,16 @@
 // export default Child1
 
 import React from "react";
- const Child1 = (props) => {
+ const Child1 = ({data}) => {
     // console.log(props)
-    console.log("data")
+    // console.log("data")
         return (
         
-            <div>{data.branch.map((v)=>(
-                    <h1>{v}</h1>
-                )) }
+            <div>{data.branch.map((v,i)=>(
+                    
+                    <h1 key={i}>{v}</h1>
+                    // <h1> key={i}>{v}</h1>
+                 )) }
                 </div>
         );
     };

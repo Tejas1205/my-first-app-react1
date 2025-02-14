@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from "../../public/tcs-logo-1.svg";
+// import logo from "../../public/tcs-logo-1.svg";
 
 const Logo=()=>{
     return(
