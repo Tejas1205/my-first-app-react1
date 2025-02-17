@@ -2,10 +2,11 @@ import Navbarcontainer from "./components/Navbarcontainer"
 import './App.css'
 // import Menubar from "./components/Menubar";
 import Footercontainer from "./components/Footercontainer"
-// import Parent from "../props/Parent";  // ❌ Incorrect path
+// import Parent from "../props/Parent";  // 
 // App.jsx
-import { useTheme } from './components/ThemeContext';  // ✅ Correct path
+import { useTheme } from './components/ThemeContext';  
 import Parent from "../props/parent";
+import State1 from "../state/State1";
 const App=()=>{
     const { isDarkMode } = useTheme();
     return(
@@ -14,8 +15,9 @@ const App=()=>{
             
           
             {/* <Navbarcontainer/> */}
-            <Parent/>
+            {/* <Parent/> */}
             {/* <Footercontainer/> */}
+            <State1/>
             
             
 
