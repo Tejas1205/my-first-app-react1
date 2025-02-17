@@ -4,13 +4,22 @@ const State1=()=>{
     
     const [count,setCount]=useState(0)
     // console.log(data);
-    
+
+    function increment(){
+        setCount(count+1)
+    }
+    function decrement(){
+        setCount(count-1)
+    }
+    function reset(){
+        setCount(0)
+    }
     return(
         <> 
         <div>count:{count}</div>
-        <button onClick={()=>setCount(count+1)}>increment</button>
-         <button onClick={()=>setCount(count-1)}>decremnt</button>
-        <button onClick={()=>setCount(0)}>reset</button> 
+        <button onClick={increment}>increment</button>
+         <button onClick={decrement}>decremnt</button>
+        <button onClick={reset}>reset</button> 
         </>
 
     )
