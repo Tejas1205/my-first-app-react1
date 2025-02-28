@@ -1,128 +1,87 @@
-/* body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s;
-}
-
-:root {
-  --background-color: white;
-  --text-color: black;
-}
-[data-theme="dark"] {
-  --background-color: #333;
-  --text-color: white;
-}
-
-#navbar{
-  height: 80px;
+/* #box{
   display: flex;
-  justify-content:space-between;
-  background-color: #000000;
+  background-color: black;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  color: bisque;
+  
+}*/
+
+/* .active{
+  background-color:yellowgreen;
+  color: azure;
+} 
+
+*{
+  margin: 0%;
+}
+
+
+#container{
+  display: flex;
+  background-color: black;
+  height: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+a{
   color: aliceblue;
-  font-size:20px ;
-  align-items: center;
+} */
 
-}
-#logo{
-  
-  margin-left: 10px; /* Ensures the logo starts from the very left */
-  /* font-size: 50px; */
-  /* margin-top: px; */
-  /* align-items: ; */
-  /* display: flex; */
+
+/* img{
+  height: 400px;
+  width: 400px;
+} */
+
+body{
   /* color: aqua; */
-  /* background-color: slategray; */
-/* }
-
- #mode {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+form{
+  display: grid;
+  place-content: center;
+  margin-top: 350px;
+  
 }
 
+#main{
+  background-color: aliceblue;
+  color:rgb(51, 123, 99);
+  height: 300px;
+  width: 400px; 
 
-#icons{
-
-  display: flex;
 }
-
-.footer{
-
-  background-color: #000000; 
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  padding: 75px;
-  color: white;
+h1{
+  /* background-color: rgb(178, 252, 227); */
+ color:  rgb(51, 123, 99);
+ margin-left: 45px;
+}
+.text{
   font-size: 20px;
+  display: grid;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
   
 
-
-
-/* } */ 
-
-/* Use data-theme attributes for dark/light mode */
-:root {
-  --navbar-bg: #000000;
-  --navbar-text: aliceblue;
-  --footer-bg: #000000;
-  --footer-text: white;
-  --body-bg: white;
-  --body-text: black;
 }
+button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(4, 117, 4);
 
-[data-theme="dark"] {
-  --navbar-bg: #2d2d2d; /* Darker shade for dark mode */
-  --navbar-text: #ffffff;
-  --footer-bg: #2d2d2d;
-  --footer-text: #ffffff;
-  --body-bg: #1a1a1a;
-  --body-text: white;
-}
-
-/* Apply variables to elements */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--body-bg);
-  color: var(--body-text);
-  transition: background-color 0.3s, color 0.3s;
-}
-
-#navbar {
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--navbar-bg);
-  color: var(--navbar-text);
-  font-size: 20px;
-  align-items: center;
-}
-
-#logo {
- 
+  margin-top: 20px;
+  height: 35px;
   margin-left: 10px;
-  font-size: 50px;
-  color: aqua; /* Keep accent color static if desired */
+  margin-right: 10px;
+  border-radius: 5px;
+ 
 }
 
-.footer {
-  background-color: var(--footer-bg);
-  color: var(--footer-text);
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  padding: 75px;
-  font-size: 20px;
-}
-
-#icons{
-  display: flex;
-
-
+.box1{
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 5px;
 }

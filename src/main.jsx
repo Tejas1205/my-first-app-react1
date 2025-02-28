@@ -71,7 +71,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client'; // Import createRoot
 import App from './App';
-import { ThemeProvider } from './components/ThemeContext'; // Adjust path as needed
+// import { ThemeProvider } from './components/ThemeContext'; // Adjust path as needed
 
 // Find the root element
 const container = document.getElementById('root');
@@ -82,8 +82,8 @@ const root = createRoot(container);
 // Render the app
 root.render(
   <React.StrictMode>
-    <ThemeProvider>
+    {/* <ThemeProvider> */}
       <App />
-    </ThemeProvider>
+    {/* </ThemeProvider> */}
   </React.StrictMode>
 );

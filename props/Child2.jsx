@@ -72,14 +72,15 @@
 //         )
 //     }
 // export default Child1
-import React from 'react'
-import Child2 from './Child2'
 
-const Child1 = () => {
+import React from 'react'
+
+const Child2 = (value) => {
   return (
-    <Child2 value="miss"/>
-    
+    <div>
+      {value}
+    </div>
   )
 }
 
-export default Child1
+export default Child2

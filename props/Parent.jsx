@@ -29,38 +29,38 @@
 // export default Parent
 
 
-import React from "react";
-import Child1 from "./child1";
+// import React from "react";
+// import Child1 from "./child1";
 
-const Parent = () => {
-    let courses =[
-        {
-            course_id:1,
-            course_name:"React",
-            trainer:"Rajesh",
-            duration:"2",
-            price:10000,
-            branch:["Bangalore","Hyderabad","Chennai"],
-            languages:["js","dom","es6"]
-        },
-        {
-            course_id:2,
-            course_name:"React js",
-            trainer:["satyam"],
-            duration:"3",
-            price:100,
-            branch:["Bangalore","Hyderabad","Chennai"],
-            languages:["js","dom","es6"]
-        }
+// const Parent = () => {
+//     let courses =[
+//         {
+//             course_id:1,
+//             course_name:"React",
+//             trainer:"Rajesh",
+//             duration:"2",
+//             price:10000,
+//             branch:["Bangalore","Hyderabad","Chennai"],
+//             languages:["js","dom","es6"]
+//         },
+//         {
+//             course_id:2,
+//             course_name:"React js",
+//             trainer:["satyam"],
+//             duration:"3",
+//             price:100,
+//             branch:["Bangalore","Hyderabad","Chennai"],
+//             languages:["js","dom","es6"]
+//         }
         
         
-    ]
-    return (
-        <Child1 data={courses} />
-    )
-}
+//     ]
+//     return (
+//         <Child1 data={courses} />
+//     )
+// }
 
-export default Parent
+// export default Parent
 
 // import data from "./data.json";
 
@@ -73,3 +73,15 @@ export default Parent
 //     )
 // }
 // export default Parent
+
+
+import React from 'react'
+import Child1 from './Child2'
+
+const Parent = () => {
+  return (
+    <Child1 value="miss"/>
+  )
+}
+
+export default Parent
